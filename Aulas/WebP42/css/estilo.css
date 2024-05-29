@@ -1,0 +1,7 @@
+@font-face{
+    font-family: "Game Of Squids";
+    src: url(../font/GameOfSquids.woff);
+}
+body{
+    font-family: "Game Of Squids";
+}

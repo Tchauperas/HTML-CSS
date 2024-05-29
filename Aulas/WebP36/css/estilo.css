@@ -1,0 +1,67 @@
+body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #f2f2f2;
+}
+#conteiner{
+    width: 960px;
+    margin: 0 auto;
+    background: #fff url(../../WebP35/imagens/coluna.png) repeat-y left top;
+    min-width: 700px;
+}
+#marca{
+    height: 200px;
+    background: #225992 url(../../WebP35/imagens/cabecalho2.jpg) no-repeat center;
+    text-align: center;
+    line-height: 200px;
+    font-weight: bold;
+    font-size: 1.5em;
+
+}
+#conteudo{
+    width: 76.5%;
+    float: right;
+}
+#cont1{
+    width: 70%;
+    float: left;
+}
+#cont2{
+    width: 30%;
+    float: right;
+    background: #d1d1d1;
+}
+#cont2 h2,
+#cont2 p,
+#cont1 h2,
+#cont1 p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#navegacao{
+    width: 23.5%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /*background: #d1d1d1;*/
+}
+#navegacao li a{
+    text-decoration: none;
+    color: black;
+}
+#navegacao a:hover{
+    color: white;
+    background: black;
+}
+#navegacao li{
+    list-style: none;
+}
+#rodape{
+    clear: both;
+    background: #c4c4c4;
+    padding: 5px;
+}
+img.img{
+    padding-left: 20px;
+    width: 90%;
+    max-width: 600px;
+}

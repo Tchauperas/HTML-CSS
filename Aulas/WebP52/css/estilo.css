@@ -1,0 +1,52 @@
+#conteudo{
+    background-color: #dcdcdc;
+    height: 600px;
+    display: flex;
+    /*
+    row|row-reverse|column|column-reverse
+    
+    flex-direction: row;
+    
+    wrap|nowrap|wrap-reverse
+    
+    flex-wrap: nowrap;
+    
+    flex-start|flex-end|center|space-between|space-around
+    
+    justify-content: space-around;
+    
+    stretch|center|flex-start|flex-end|baseline(mesma linha de formatação)
+    
+    align-items: baseline;
+    */
+}
+.item{
+    /*width: 200px;*/
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 10px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 200px;
+}
+.item1{
+    /*flex-grow: 1;*/
+    /*flex-shrink: 2;*/
+}
+.item2{
+    /*flex-grow: 2;*/
+    /*flex-shrink: 3;*/
+}
+.ordem1{
+    order: 1;
+}
+.ordem2{
+    order: 2;
+}
+.ordem3{
+    order: 3;
+}
+.ordem4{
+    order: 4;
+}
